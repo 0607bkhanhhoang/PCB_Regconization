@@ -239,7 +239,7 @@ class PLCWindow(QMainWindow):
         left_layout.addLayout(file_layout)
 
         # --- Start and Stop Test Buttons ---
-        self.start_test_btn = QPushButton("Start PLC Test (HMH luan van)")
+        self.start_test_btn = QPushButton("Start PLC Test")
         self.start_test_btn.clicked.connect(self.start_test_plc)
 
         self.stop_test_btn = QPushButton("Stop PLC Test")
